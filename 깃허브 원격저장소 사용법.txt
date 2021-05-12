@@ -1,5 +1,12 @@
 양양 해뜨는창문 애견동반 펜션
 
+[로컬 깃저장소 만들고 원격저장소 파일 가져오기]
+1. 로컬 저장소 폴더생성 및 이동
+2. git bash를 실행
+3. git init
+4. git remote origin https://github.com/gbkim000/Temporary.git (원격저장소 연결)
+5. git pull origin master (원격저장소 파일 가져오기)
+
 
 [원격 저장소 연결하기]
 - git remote add origin "깃허브주소"
