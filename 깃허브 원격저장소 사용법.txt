@@ -62,5 +62,9 @@ color.branch=auto
 color.interactive=auto
 color.diff=auto
 
+[로긴 정보 저장]
+git config credential.helper store
+(위 명령 입력후 push하면   ID, PW 정보가 저장되고 이후에는 자동 로긴된다.)
 
-출처: https://goodtogreate.tistory.com/entry/Git-config-설정-계정설정 [GOOD to GREAT]
+
+
