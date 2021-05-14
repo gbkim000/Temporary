@@ -1,0 +1,14 @@
+<cmd 명령어 실행>
+
+diskpart ; 디스크 작업으로 진입
+list disk ; 전체 디스크 보기
+....
+select disk 0 ; disk 0선택
+list partition 
+....
+select partition 2 ; partition 2 선택
+delect partition override ; 현재 선택한 파티션 삭제하기
+list partition 
+...
+
+ 
